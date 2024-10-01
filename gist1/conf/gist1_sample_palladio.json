@@ -1,0 +1,12 @@
+{
+    "root": "./experiment",
+    "folder": "gist1_sample_palladio",
+    "checkpoint": "./weights/gist1_gpt_palladio_2000ep/checkpoints/2000_gist.pth",
+    "sample_num": 144,
+    "seq_length": 50,
+    "figsize" : 15,
+    "topk" : 50,
+    "lim" : 2,
+    "alpha" : 0.0075,
+    "seed" : 2024
+}

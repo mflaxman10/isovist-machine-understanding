@@ -1,0 +1,12 @@
+{
+    "root": "./experiment",
+    "folder": "gist1_sample_mies",
+    "checkpoint": "./weights/gist1_gpt_mies_200ep/checkpoints/200_gist.pth",
+    "sample_num": 144,
+    "seq_length": 100,
+    "figsize" : 15,
+    "topk" : 50,
+    "lim" : 3,
+    "alpha" : 0.0075,
+    "seed" : 2024
+}

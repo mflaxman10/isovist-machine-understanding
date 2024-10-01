@@ -1,0 +1,28 @@
+{
+    "root": "./experiment",
+    "folder": "latentgandisc_16dir",
+    "shift_scale": 1.0,
+    "min_shift": 0.05,
+
+    "deformator_lr": 1e-4,
+    "shift_predictor_lr": 1e-4,
+    "n_steps": 100000,
+    "batch_size": 32,
+
+    "label_weight": 1.0,
+    "shift_weight": 0.25,
+
+    "steps_per_log": 10,
+    "steps_per_save": 10000,
+    "steps_per_img_log": 1000,
+    "steps_per_backup":1000,
+
+    "progan_model" : "./weights/progan1d_1200k/checkpoints/1200000",
+    "seed":2003,
+
+    "directions_count":16,
+    "max_latent_dim": 16,
+    "deformator_random_init": true,
+
+    "shift_predictor_size":null
+}

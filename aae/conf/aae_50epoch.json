@@ -1,0 +1,17 @@
+{
+    "root": "./experiment",
+    "folder": "aae_50epoch",
+    "data_root": "./floorplan_isovist_dataset",
+    "batch_size": 64,
+    "disc_feats": 16,
+    "epochs": 50,
+    "latent_dim": 32,
+    "learning_rate": 0.0002,
+    "sample_num": 16,
+    "save_freq": 1,
+    "seed": 0,
+    "starting_filters": 64,
+    "num_workers": 0,
+    "beta1" : 0.5,
+    "beta2" : 0.999
+}

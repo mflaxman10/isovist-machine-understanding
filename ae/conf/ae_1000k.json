@@ -1,0 +1,16 @@
+{
+    "root": "./experiment",
+    "folder": "ae_1000k",
+    "data_root": "./floorplan_isovist_dataset",
+    "batch_size": 256,
+    "starting_filters" : 64,
+    "latent_dim": 16,
+    "learning_rate": 2e-5,
+    "sample_num": 16,
+    "iterations": 1000000,
+    "save_freq": 50000,
+    "img_freq" : 5000,
+    "seed": 0,
+    "rotate": true,
+    "flip" : true
+}

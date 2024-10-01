@@ -1,0 +1,18 @@
+{
+    "root": "./experiment",
+    "folder": "progan1d_disc_trans_40ep",
+    "perceptual_model": "./weights/aae_50ep/checkpoints/00045_encoder.pth",
+    "progan_model" : "./weights/progan1d_1200k/checkpoints/1200000",
+    "batch_size": 64,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "save_freq": 1,
+    "seed": 0,
+    "starting_filters": 64,
+    "num_workers": 0,
+    "beta1" : 0.5,
+    "beta2" : 0.99,
+    "per_const" : 1.0,
+    "l2_const" : 1.0,
+    "l2z_const" : 0.1
+}

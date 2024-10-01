@@ -1,0 +1,12 @@
+{
+    "root": "./experiment",
+    "folder": "gist1_sample_base",
+    "checkpoint": "./weights/gist1_gpt_base_500ep/checkpoints/500_gist.pth",
+    "sample_num": 144,
+    "seq_length": 50,
+    "figsize" : 15,
+    "topk" : 50,
+    "lim" : 2,
+    "alpha" : 0.0075,
+    "seed" : 2024
+}
