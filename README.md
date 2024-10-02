@@ -1,11 +1,14 @@
 # Machine Understanding of Architectural Space: From Analytical to Generative Applications   
 
-This repository contains the code and models for the experiments conducted as part of the PhD research project "Machine Understanding of Architectural Space: From Analytical to Generative Applications". This project explores machine learning techniques for understanding architectural spaces from isovist representation, ranging from analytical tasks such as spatial typification and semantic discovery to generative tasks such as spatial sequence synthesis. The repository hosts multiple models developed during the research, along with the datasets and scripts to replicate the experiments.   
+This repository contains the code and models for the experiments conducted as part of the PhD research project "Machine Understanding of Architectural Space: From Analytical to Generative Applications" at EPFL Media and Design Lab (LDM). This project explores machine learning techniques for understanding architectural spaces from isovist representation, ranging from analytical tasks such as spatial typification and semantic discovery to generative tasks such as spatial sequence synthesis. The repository hosts multiple models developed during the research, along with the datasets and scripts to replicate the experiments.   
    
 **Link to thesis > Coming soon**
 
 ## Author  
 Mikhael Johanes
+
+## Supervisor  
+Jeffrey Huang
 
 
 ## Repository Structure
@@ -62,7 +65,7 @@ Place the weights in the weights/ folder.
 We can train the models by using the given script [model_name]_train.py and passing the suitable configuration via --config argument
 ```bash
 # train a vae model
-python vae_train --config ./vae/conf/vae_1000k.json
+python vae_train.py --config ./vae/conf/vae_1000k.json
 ```
 
 By default all the results will be stored in experiment/ folder.
