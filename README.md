@@ -2,7 +2,7 @@
 
 This repository contains the code and models for the experiments conducted as part of the PhD research project "Machine Understanding of Architectural Space: From Analytical to Generative Applications" at EPFL Media and Design Lab (LDM). This project explores machine learning techniques for understanding architectural spaces from isovist representation, ranging from analytical tasks such as spatial typification and semantic discovery to generative tasks such as spatial sequence synthesis. The repository hosts multiple models developed during the research, along with the datasets and scripts to replicate the experiments.   
    
-**Link to thesis > Coming soon**
+**Link to thesis > [EPFL Infoscience](https://infoscience.epfl.ch/handle/20.500.14299/241507)
 
 ## Author  
 Mikhael Johanes
